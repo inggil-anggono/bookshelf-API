@@ -38,12 +38,6 @@ const routes = [
     path: '/books/{bookId}',
     handler: deleteBookByIdHandler,
   },
-  // Rute default untuk mendapatkan semua buku jika URL tidak cocok dengan rute yang didefinisikan sebelumnya
-  {
-    method: 'GET',
-    path: '/',
-    handler: getAllBooksHandler,
-  },
 ];
 
 // Ekspor daftar rute untuk digunakan di aplikasi lain
